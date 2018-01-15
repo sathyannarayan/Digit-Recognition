@@ -1,1 +1,3 @@
-# Path-recognition
+# Digit Recognition
+   The digit recognition using a simple multi-class classifier - Support Vector classifier. The dataset images for this could be either  from Yann Lecun MNIST (http://yann.lecun.com/exdb/mnist/) which contains both training and test dataset OR from sklearn.datasets. Both dataset load is used to show as how it is loaded. The dataset is divided as Training and Test dataset. Each images are defined in 8x8 matrix with pixel intensity and trained against the expected digit value. The param gamma=0.001 defines how much influence a single training example has. It should be not larger value as it affect the other examples.
+   Once the model is trained, we could use the model to predict array set of images or single image digit recognition.
